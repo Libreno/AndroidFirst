@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/openListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openList" />
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openAnotherAvtivity" />
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openXamarinUri" />
+    <Button
+        android:id="@+id/myButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passExtras" />
+    <Button
+        android:id="@+id/fragmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openFragmentActivity" />
+    <Button
+        android:id="@+id/tabsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open tabs activity" />
+    <Button
+        android:id="@+id/relativeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open relative layout activity" />
+    <Button
+        android:id="@+id/notifyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show notification" />
+    <Button
+        android:id="@+id/lockScreenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lock screen" />
+</LinearLayout>

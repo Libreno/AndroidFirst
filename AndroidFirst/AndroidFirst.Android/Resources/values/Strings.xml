@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+  <string name="openAnotherAvtivity">Open another avtivity</string>
+  <string name="openXamarinUri">Open xamarin.com</string>
+  <string name="passExtras">Pass extras to Activity</string>
+  <string name="openList">Open list</string>
+  <string name="app_name">AndroidFirst.Android</string>
+  <string name="openFragmentActivity">Open Activity with fragment</string>
+</resources>

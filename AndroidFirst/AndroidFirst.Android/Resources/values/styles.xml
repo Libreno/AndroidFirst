@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Style1">
+    <item name="android:layout_height">25dp</item>
+  </style>
+  <style name="SupportFix" parent="Theme.AppCompat">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+</resources>

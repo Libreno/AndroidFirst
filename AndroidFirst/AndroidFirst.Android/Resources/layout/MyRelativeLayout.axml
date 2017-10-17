@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RelativeLayout xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="TheBusinessTumble.RelativeLayoutPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+  <BoxView
+        Color="Red"
+        x:Name="redBox"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,             Property=Height,Factor=.15,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression             Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression             Type=RelativeToParent,Property=Height,Factor=.8,Constant=0}" />
+    <BoxView
+        Color="Blue"
+        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,             ElementName=redBox,Property=Y,Factor=1,Constant=20}"
+        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,             ElementName=redBox,Property=X,Factor=1,Constant=20}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression             Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+        RelativeLayout.HeightConstraint="{ConstraintExpression             Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}" />
+</RelativeLayout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relativeLayout1"
+                android:gravity="center">
+  <TextView
+    android:text="Top Text with gravity of Relative Layout as Center"
+    android:layout_width="match_parent"
+    android:layout_height="64.8dp"
+    android:id="@+id/textViewTop"
+    android:gravity="center"
+    android:background="#ffaa758c"
+    android:textColor="#000000"/>
+  <TextView
+    android:text="Middle Text view"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_width="164.3dp"
+    android:layout_height="64.3dp"
+    android:layout_below="@+id/textViewTop"
+    android:id="@+id/textViewMiddle"
+    android:textColor="#000000"
+    android:background="#ffb4e03c"
+    android:gravity="center" />
+  <TextView
+    android:text="Bottom Textview"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="60.1dp"
+    android:layout_toRightOf="@+id/textViewMiddle"
+    android:id="@+id/textView7"
+    android:layout_below="@+id/textViewMiddle"
+    android:background="#ff60dce5"
+    android:textColor="#000000"
+    android:gravity="center" />
+</RelativeLayout>
